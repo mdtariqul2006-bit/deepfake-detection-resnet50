@@ -20,5 +20,8 @@ You do not need the dataset to run the application. The fully trained ResNet50 w
 Simply open app.py, enter streamlit run in the terminal and upload a test image to the web interface that opens up,
 you can also use the test images uploaded with this project.
 
+if you do not have streamlit installed, run the file in vs code or any suitable IDE, type pip install streamlit, wait for it install
+then type "streamlit run"
+
 How to retrain the model:
 If you wish to run training.py from scratch, please download the Celeb-DF dataset and place the extracted frames into a local dataset/ directory before running the script.
